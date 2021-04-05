@@ -25,3 +25,27 @@ main {
   background: green;
   color: red;
 }
+
+
+/*Exercise: 1 Skip to button*/
+.skip-link:focus {
+	position:relative;
+	left: 10px;
+	transition: left 0s;
+	color:white;
+}
+
+/*Add transition to allow link to slide off */
+
+.skip-link {
+	display: block;
+	position:relative;
+	left: -200px;
+	transition: left 2.5s;
+	background: red;
+	color: white;
+	width: 10em;
+	height: 2em;
+	text-align: center;
+	border-radius: 5px;
+}
